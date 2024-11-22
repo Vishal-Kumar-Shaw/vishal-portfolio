@@ -42,7 +42,6 @@
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
-    <link rel="stylesheet" href="style.css" />
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css"
@@ -50,70 +49,213 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-
-    </nav>
-    <!-- Front Photo page -->
-    <section>
-
-    </section>
-    <!-- About Us -->
-    <h2>About</h2>
-    <p class="font-roboto">
-      Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-      aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-      quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-      sit in iste officiis commodi quidem hic quas.
-    </p>
-    <img src="" alt="" />
-    <h3>UI/UX Designer & Web Developer.</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    </p>
-    <ul>
-      <li>Birthday: 1 May 1995</li>
-      <li>Website: www.example.com</li>
-      <li>Phone: +123 456 7890</li>
-      <li>City: New York, USA</li>
-      <li>Age: 30</li>
-      <li>Degree: Master</li>
-      <li>Email: email@example.com</li>
-      <li>Freelance: Available</li>
-    </ul>
-    <p>
-      Officiis eligendi itaque labore et dolorum mollitia officiis optio vero.
-      Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt
-      officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem
-      quia. Sed et consectetur qui quia repellendus itaque neque.
-    </p>
-    <section>
-      <!-- Clients and Projects -->
+    <main class="container w-[75vw]">
+      <nav></nav>
+      <!-- Front Photo page -->
       <section></section>
-      <!-- Skills -->
-      <section></section>
-    </section>
-    <!-- Resume -->
-    <section>
-      <!-- My summary -->
-      <summary></summary>
-      <!-- My education -->
-      <section></section>
-      <!-- Professional Experience -->
-      <section></section>
-    </section>
-    <!-- portfolio -->
-    <section></section>
 
-    <!-- Services -->
-    <section></section>
+      <!-- About Us -->
+      <section>
+        <div class="about-us-heading">
+          <h2 class="font-raleway headings">About</h2>
+          <p class="font-roboto content">
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+        <div class="about-us-main flex mb-5">
+          <div class="img">
+            <img src="./my-profile-img.jpg" alt="" />
+          </div>
+          <div class="right">
+            <h3 class="font-raleway sub-headings">
+              UI/UX Designer & Web Developer
+            </h3>
+            <p class="content">
+              <i
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</i
+              >
+            </p>
+            <ul class="flex gap-x-10">
+              <div>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>Birthday: </span> &nbsp; 27 May 1997
+                </li>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>Website: </span> &nbsp;
+                  https://vishal-portfolio-32b05.web.app
+                </li>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>Phone: </span> &nbsp; +91 7358291024
+                </li>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>City: </span> &nbsp; Noida
+                </li>
+              </div>
+              <div>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>Age: </span> &nbsp; 27
+                </li>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>Degree: </span> &nbsp; Masters in Computer Applications
+                </li>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>Email: </span> &nbsp; vkshaw1997@gmail.com
+                </li>
+                <li class="flex items-center mb-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="skyblue"
+                    stroke-width="2"
+                    class="h-5 w-5 mr-2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 18l6-6-6-6"
+                    />
+                  </svg>
+                  <span>Freelance: </span> &nbsp; Available
+                </li>
+          </div>
+        </div>
+        
+        </div>
+        </ul>
+        <p class="content">
+          Officiis eligendi itaque labore et dolorum mollitia officiis optio
+          vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor
+          incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime
+          officiis quidem quia. Sed et consectetur qui quia repellendus itaque
+          neque.
+        </p>
+      </section>
+      <!-- Resume -->
+      <section>
+        <!-- My summary -->
+        <section></section>
+        <!-- My education -->
+        <section></section>
+        <!-- Professional Experience -->
+        <section></section>
+      </section>
+      <!-- portfolio -->
+      <section></section>
 
-    <!-- Testimonials -->
-    <section></section>
+      <!-- Services -->
+      <section></section>
 
-    <!-- contact -->
-    <section></section>
+      <!-- Testimonials -->
+      <section></section>
+
+      <!-- contact -->
+      <section></section>
+    </main>
   </body>
 </html>
