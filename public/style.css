@@ -2,3 +2,42 @@
 .font-roboto {
     font-family: "Roboto", sans-serif;
 }
+.font-raleway{
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+}
+.headings{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    color: black;
+    word-spacing: 0px;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    display: inline-block;
+    border-color: rgb(47, 99, 240);
+    border-width: 0 0 2px 0;
+}
+.content{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-block: 16px;
+}
+.sub-headings{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin: 0 0 8px 0;
+}
+ul>li{
+    margin-bottom: 20px;
+}
+ul>li>span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
